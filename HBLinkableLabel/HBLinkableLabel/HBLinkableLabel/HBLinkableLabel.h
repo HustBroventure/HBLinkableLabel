@@ -17,7 +17,7 @@ typedef void (^LinkTapHandler)(NSRange range);
 @property (nonatomic, assign ) BOOL isLinkEnabled;
 
 /**
- * @discussion The default value is (0.95, 0.95, 0.95, 1.0).
+ *  The default value is (0.95, 0.95, 0.95, 1.0).
  */
 @property (nullable, nonatomic, copy)  UIColor *selectedLinkBackgroundColor;
 /**

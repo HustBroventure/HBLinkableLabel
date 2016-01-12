@@ -24,7 +24,7 @@
     label.font = [UIFont systemFontOfSize:22];
     label.textColor = [UIColor whiteColor];
     label.textAlignment = NSTextAlignmentCenter;
-    label.text = @"KILabel 是 iOS 7 简单易用的 UILabel 替代品，提供链接自动检测，类似 URLs，twitter 类型的用户名和 hashtags。";
+    label.text = @" 简单易用的 UILabel 替代品，高可扩展性，可以定义range的文字为链接。点击后做出响应。😄";
     label.linkRanges = @[[NSValue valueWithRange:NSMakeRange(3, 4)],[NSValue valueWithRange:NSMakeRange(12, 3)]];
     label.linkTapHandler = ^(NSRange range){
         NSLog(@"%@",NSStringFromRange(range));
